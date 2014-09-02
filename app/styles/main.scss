@@ -88,7 +88,14 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+    background: transparent  url('../images/Cerro_de_la_Silla.jpg') no-repeat scroll left top;
+    background-size: cover;
   }
 }
 
 .angular-google-map-container { height: 400px; }
+
+html, body {
+ /* background-image: url("../images/bg2.png"), url("../images/bg1.jpg");
+  background-repeat: repeat-x, repeat;*/
+}

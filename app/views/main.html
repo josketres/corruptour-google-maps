@@ -1,12 +1,17 @@
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
+  <h1>CORRUPTOUR</h1>
   <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
+    El tour de la corrupci&oacute;n
   </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+  <img src="images/dinero.png" alt="I'm Yeoman"><br>
 </div>
 
 <div class="row marketing">
-  <google-map center="map.center" zoom="map.zoom"></google-map>
+  <google-map center="map.center" zoom="map.zoom">
+        <markers  models="stations" 
+                  coords="'self'" 
+                  options="'options'"
+                  isLabel='true'>
+        </markers>
+  </google-map>
 </div>
