@@ -10,6 +10,7 @@ Una vez instalados los prerequisitos, se puede correr la aplicación de la sigui
     git clone https://github.com/josketres/corruptour-mty-mapa.git
     cd corruptour-mty-mapa/
     npm install
+    bower install
     grunt serve
 
 Prerequisitos
