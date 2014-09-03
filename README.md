@@ -35,7 +35,3 @@ No es necesario inicializar el proyecto de nuevo.
    
     npm install -g generator-angular
     yo angular
-
-Correr el proyecto
------
-grunt serve
