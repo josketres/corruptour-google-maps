@@ -1,7 +1,7 @@
 corruptour-mty-mapa
 ===================
 
-Mapa interactivo del corrouptour
+Mapa interactivo del corrouptour - http://josketres.github.io/corruptour-mty-mapa/
 
 Como utilizar (desarrollo)
 -----
