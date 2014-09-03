@@ -3,7 +3,16 @@ corruptour-mty-mapa
 
 Mapa interactivo del corrouptour
 
-Dependencias
+Como utilizar
+-----
+Una vez instalados los prerequisitos, se puede correr la aplicación de la siguiente manera:
+
+    git clone https://github.com/josketres/corruptour-mty-mapa.git
+    cd corruptour-mty-mapa/
+    npm install
+    grunt serve
+
+Prerequisitos
 -----
 
 * Node.js (http://nodejs.org)
@@ -13,6 +22,9 @@ Dependencias
 
 Scaffolding (inicializacion)
 -----
+Para inicializar el proyecto se utilizo yeoman y el generador de angular. 
+
+No es necesario inicializar el proyecto de nuevo.
    
     npm install -g generator-angular
     yo angular
