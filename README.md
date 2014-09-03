@@ -3,7 +3,7 @@ corruptour-mty-mapa
 
 Mapa interactivo del corrouptour
 
-Como utilizar
+Como utilizar (desarrollo)
 -----
 Una vez instalados los prerequisitos, se puede correr la aplicación de la siguiente manera:
 
@@ -12,6 +12,12 @@ Una vez instalados los prerequisitos, se puede correr la aplicación de la sigui
     npm install
     bower install
     grunt serve
+
+Publicar en GitHub Pages
+-----
+
+    grunt build:dist
+    grunt buildcontrol:pages
 
 Prerequisitos
 -----
