@@ -7,6 +7,7 @@ Dependencias
 -----
 
 * Node.js (http://nodejs.org)
+* Bower `npm install -g bower`
 * Yeoman `npm install -g yo`
 * Ruby (https://forwardhq.com/support/installing-ruby-windows)
 * Compass `gem install compass`
