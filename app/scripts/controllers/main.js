@@ -16,7 +16,10 @@ angular.module('corruptourMtyMapaApp')
 				latitude: 25.67161,
 				longitude: -100.31976
 			},
-			zoom: 13
+			zoom: 13,
+			options: {
+				scrollwheel: false
+			}
 		};
 
 		$scope.createStation = function(id, name, latitude, longitude) {
