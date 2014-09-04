@@ -1,6 +1,6 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
 // endbower
 
 .browsehappy {
@@ -88,8 +88,10 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+    /*
     background: transparent  url('../images/Cerro_de_la_Silla.jpg') no-repeat scroll left top;
     background-size: cover;
+    */
   }
 }
 
@@ -115,4 +117,10 @@ html, body {
   text-align: center;
   vertical-align: middle;
   line-height: 20px; 
+}
+
+.angular-google-map-container {
+    border: 10px solid #fff;
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: 30px;
 }

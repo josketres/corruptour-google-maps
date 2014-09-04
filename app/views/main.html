@@ -1,17 +1,20 @@
 <div class="jumbotron">
-  <h1>CORRUPTOUR</h1>
-  <p class="lead">
-    El tour de la corrupci&oacute;n
-  </p>
-  <img src="images/dinero.png" alt="I'm Yeoman"><br>
-</div>
-
-<div class="row marketing">
   <google-map center="map.center" zoom="map.zoom" options="map.options" draggable="true">
         <markers  models="stations" 
                   coords="'self'" 
                   options="'options'"
                   isLabel='true'>
         </markers>
+
+        <polyline path="route.path" 
+                  stroke="route.stroke" 
+                  visible='route.visible'
+                  geodesic='route.geodesic' 
+                  fit="false" 
+                  editable="route.editable" 
+                  draggable="route.draggable" 
+                  icons='route.icons'
+                  static="true">
+        </polyline>
   </google-map>
 </div>
