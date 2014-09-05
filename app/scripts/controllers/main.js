@@ -64,8 +64,8 @@ angular.module('corruptourMtyMapaApp')
 			$scope.createStation(7, 'Parque Fundidora', 25.68232, -100.28655),
 			$scope.createStation(8, 'Par Vial', 25.66782, -100.33429),
 			$scope.createStation(9, 'Casino Royale', 25.674156, -100.354931),
-			$scope.createStation(10, 'Isssteleon', 25.66817, -100.34156),
-			$scope.createStation(11, 'Rio Santa Catarina', 25.67193, -100.31938),
+			$scope.createStation(10, 'Rio Santa Catarina', 25.66817, -100.34156),
+			$scope.createStation(11, 'Isssteleon', 25.67193, -100.31938),
 		];
 
 		$scope.stations[0].show = true;
