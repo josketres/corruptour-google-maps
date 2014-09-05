@@ -3,7 +3,13 @@
         <markers  models="stations" 
                   coords="'self'" 
                   options="'options'"
+                  click="'onClick'"
                   isLabel='true'>
+            <windows show="'show'">
+                <div ng-non-bindable>
+                  {{name}}
+                </div>
+            </windows>
         </markers>
 
         <polyline path="route.path" 
