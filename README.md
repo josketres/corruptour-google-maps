@@ -1,14 +1,14 @@
-corruptour-mty-mapa
+corruptour-google-maps
 ===================
 
-Mapa interactivo del corrouptour - http://josketres.github.io/corruptour-mty-mapa/
+Mapa interactivo del corrouptour - http://josketres.github.io/corruptour-google-maps/
 
 Como utilizar (desarrollo)
 -----
 Una vez instalados los prerequisitos, se puede correr la aplicación de la siguiente manera:
 
-    git clone https://github.com/josketres/corruptour-mty-mapa.git
-    cd corruptour-mty-mapa/
+    git clone https://github.com/josketres/corruptour-google-maps.git
+    cd corruptour-google-maps/
     npm install
     bower install
     grunt serve

@@ -395,7 +395,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:josketres/corruptour-mty-mapa.git',
+          remote: 'git@github.com:josketres/corruptour-google-maps.git',
           branch: 'gh-pages'
         }
       },
