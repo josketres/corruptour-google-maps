@@ -52,10 +52,26 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  background-image: url("../images/bg2.png"), url("../images/bg1.jpg");
+  background-repeat: repeat-x, repeat;
+
+  h1 {
+    font-family: 'Creepster', cursive;
+    color: #fdc057;
+    text-shadow: 2px 2px #b31925;
+  }
 
   .btn {
     font-size: 21px;
     padding: 14px 24px;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  a {
+    color: #fdc057;
   }
 }
 
@@ -89,13 +105,16 @@ body {
   .jumbotron {
     border-bottom: 0;
     /*
+    background-image: url("../images/bg2.png"), url("../images/bg1.jpg");
+    background-repeat: repeat-x, repeat;
+    */
+    /*
+    background: transparent url("../images/bg1.jpg") repeat-x scroll left top;
     background: transparent  url('../images/Cerro_de_la_Silla.jpg') no-repeat scroll left top;
     background-size: cover;
     */
   }
 }
-
-.angular-google-map-container { height: 400px; }
 
 html, body {
  /* background-image: url("../images/bg2.png"), url("../images/bg1.jpg");
@@ -120,7 +139,29 @@ html, body {
 }
 
 .angular-google-map-container {
+    height: 400px;
     border: 10px solid #fff;
     box-shadow: 0 0 5px #ccc;
-    margin-bottom: 30px;
+}
+
+.stations-list {
+  ul{
+    width:760px;
+    margin-bottom:20px;
+    overflow:hidden;
+    border-top:1px solid #ccc;
+  }
+  li{
+    line-height:1.5em;
+    border-bottom:1px solid #ccc;
+    float:left;
+    display:inline;
+    cursor: pointer;
+  }
+
+  .selected {
+    font-weight: bold;
+  }
+
+  .double li  { width:50%;}
 }

@@ -23,6 +23,16 @@ angular.module('corruptourMtyMapaApp')
 			draggable: true
 		};
 
+		$scope.showStation = function(id) {
+			$scope.hideAllStationsWindows();
+			$scope.stations[id].show = true;
+			$scope.map.center = {
+				latitude: 25.67161,
+				longitude: -100.31976
+			};
+			$scope.map.zoom = 13;
+		};
+
 		$scope.createStation = function(id, name, latitude, longitude) {
 
 			var station = {

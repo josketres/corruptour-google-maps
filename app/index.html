@@ -14,8 +14,12 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <link href="//fonts.googleapis.com/css?family=Anaheim:400" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Creepster' rel='stylesheet' type='text/css'>
   </head>
   <body ng-app="corruptourMtyMapaApp">
+
+    <a href="https://github.com/josketres/corruptour-google-maps"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -24,16 +28,17 @@
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
+          <li class="active"><a ng-href="#">Mapa</a></li>
+<!--           <li><a ng-href="#/about">Acerca de</a></li> -->
+          <li><a href="http://www.corruptour.mx">corruptour.mx</a></li>
         </ul>
-        <h3 class="text-muted">Corruptour Monterrey</h3>
+        <h3 class="text-muted"><span class="glyphicon glyphicon-map-marker"></span> Corruptour Mapa</h3>
       </div>
 
       <div ng-view=""></div>
 
       <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p><span class="glyphicon glyphicon-star"></span> Creado por <a href="https://github.com/josketres">josketres</a> en <a href="https://github.com/josketres/corruptour-google-maps">GitHub</a>. Con admiraci&oacute;n y respeto para el equipo de <a href="http://www.corruptour.mx">corruptour.mx</a></p>
       </div>
     </div>
 

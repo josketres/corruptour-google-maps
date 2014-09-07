@@ -1,5 +1,13 @@
 <div class="jumbotron">
-  <google-map center="map.center" zoom="map.zoom" options="map.options" draggable="true">
+  <h1>Mapa interactivo del <span class="corruptour">Corruptour</span></h1>
+  <img src="images/dinero.png" />
+  <p>
+    Mapa interactivo del ingenioso, innovador y provocativo corruptour. Este proyecto es independiente de <a href="http://www.corruptour.mx">corruptour.mx</a>, pero esta basado en la informaci&oacute;n publicada por el mismo.
+  </p>
+</div>
+
+<div class="row marketing">
+    <google-map center="map.center" zoom="map.zoom" options="map.options" draggable="true">
         <markers  models="stations" 
                   coords="'self'" 
                   options="'options'"
@@ -23,4 +31,10 @@
                   static="true">
         </polyline>
   </google-map>
+  <div class="stations-list">
+    <h3>Lista de estaciones</h3>
+    <ul class="double">
+      <li ng-class="{true: 'selected', false: ''}[station.show]" ng-repeat="station in stations" ng-click="showStation(station.id)">{{station.name}}</li>
+    </ul>
+  </div>
 </div>
