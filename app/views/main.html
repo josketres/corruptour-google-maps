@@ -31,10 +31,24 @@
                   static="true">
         </polyline>
   </google-map>
-  <div class="stations-list">
-    <h3>Lista de estaciones</h3>
-    <ul class="double">
-      <li ng-class="{true: 'selected', false: ''}[station.show]" ng-repeat="station in stations" ng-click="showStation(station.id)">{{station.name}}</li>
+</div>
+
+<div class="row marketing stations-list">
+  <div class="col-md-12"><h3>Lista de estaciones</h3></div>
+  <div class="col-md-6 col-sm-6">
+    <ul class="list-group">
+      <li class="list-group-item" 
+          ng-class="{true: 'active', false: ''}[station.show]"
+          ng-repeat="station in stations.slice(0,6)"
+          ng-click="showStation(station.id)">{{station.name}}</li>
+    </ul>
+  </div>
+  <div class="col-md-6 col-sm-6">
+    <ul class="list-group">
+      <li class="list-group-item" 
+          ng-class="{true: 'active', false: ''}[station.show]"
+          ng-repeat="station in stations.slice(6,12)"
+          ng-click="showStation(station.id)">{{station.name}}</li>
     </ul>
   </div>
 </div>
